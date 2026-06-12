@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The application is a Travel Journal that allows users to create and manage travel memories. Users can create journal entries by providing a title and description, selecting a photo from their device, and saving their current location. Entries are stored locally on the device and can be viewed, edited, searched, and deleted.
 
-## Get started
+My purpose for creating this application was to learn more about mobile application development, device integration, local data persistence, and creating a user-friendly experience using React Native and Expo.
 
-1. Install dependencies
+[Software Demo Video](https://youtu.be/N0CLafI5MrU)
 
-   ```bash
-   npm install
-   ```
+# Development Environment
 
-2. Start the app
+- Visual Studio Code
+- Expo Go
+- Node.js
+- Git and GitHub
 
-   ```bash
-   npx expo start
-   ```
+# Programming Language and Libraries
 
-In the output, you'll find options to open the app in a
+- TypeScript
+- React Native
+- Expo
+- Expo Router
+- AsyncStorage
+- Expo Image Picker
+- Expo Location
+- React Native Maps
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Useful Websites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* [Expo Docs](https://docs.expo.dev)
+* [React Native Docs](https://reactnative.dev)
 
-## Get a fresh project
+# Future Work
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Add support for taking photos directly with the device camera.
+* Add cloud synchronization so entries can be backed up across devices.
+* Improve the user interface with custom themes and additional travel statistics.
